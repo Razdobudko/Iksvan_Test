@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		D6711E7728CB224C00B60ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6711E7628CB224C00B60ACE /* AppDelegate.swift */; };
 		D6711E7928CB224C00B60ACE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6711E7828CB224C00B60ACE /* SceneDelegate.swift */; };
-		D6711E7B28CB224C00B60ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6711E7A28CB224C00B60ACE /* ViewController.swift */; };
+		D6711E7B28CB224C00B60ACE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6711E7A28CB224C00B60ACE /* MainViewController.swift */; };
 		D6711E7E28CB224C00B60ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6711E7C28CB224C00B60ACE /* Main.storyboard */; };
 		D6711E8028CB224D00B60ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6711E7F28CB224D00B60ACE /* Assets.xcassets */; };
 		D6711E8328CB224D00B60ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6711E8128CB224D00B60ACE /* LaunchScreen.storyboard */; };
+		D6711E8D28CB229400B60ACE /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6711E8B28CB229400B60ACE /* CustomCollectionViewCell.swift */; };
+		D6711E8E28CB229400B60ACE /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6711E8C28CB229400B60ACE /* CustomCollectionViewCell.xib */; };
+		D6711E9128CB230300B60ACE /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6711E9028CB230300B60ACE /* BaseView.swift */; };
+		D6711E9628CB704E00B60ACE /* The Weeknd ft. Daft Punk - Star-boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6711E9528CB704E00B60ACE /* The Weeknd ft. Daft Punk - Star-boy.mp3 */; };
+		D6711E9828CB710700B60ACE /* Naughty Boy ft. Beyonce - Runnin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6711E9728CB710700B60ACE /* Naughty Boy ft. Beyonce - Runnin.mp3 */; };
+		D6711E9A28CB725F00B60ACE /* Maroon 5 - Wait.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6711E9928CB725F00B60ACE /* Maroon 5 - Wait.mp3 */; };
+		D6711E9C28CC8F7600B60ACE /* XGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6711E9B28CC8F7600B60ACE /* XGradientView.swift */; };
+		D6711E9F28CCA1B600B60ACE /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6711E9E28CCA1B600B60ACE /* Music.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6711E7328CB224C00B60ACE /* Iksvan_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iksvan_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6711E7628CB224C00B60ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6711E7828CB224C00B60ACE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6711E7A28CB224C00B60ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6711E7A28CB224C00B60ACE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D6711E7D28CB224C00B60ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6711E7F28CB224D00B60ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6711E8228CB224D00B60ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6711E8428CB224D00B60ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6711E8B28CB229400B60ACE /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		D6711E8C28CB229400B60ACE /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		D6711E9028CB230300B60ACE /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D6711E9528CB704E00B60ACE /* The Weeknd ft. Daft Punk - Star-boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weeknd ft. Daft Punk - Star-boy.mp3"; sourceTree = "<group>"; };
+		D6711E9728CB710700B60ACE /* Naughty Boy ft. Beyonce - Runnin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Naughty Boy ft. Beyonce - Runnin.mp3"; sourceTree = "<group>"; };
+		D6711E9928CB725F00B60ACE /* Maroon 5 - Wait.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5 - Wait.mp3"; sourceTree = "<group>"; };
+		D6711E9B28CC8F7600B60ACE /* XGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XGradientView.swift; sourceTree = "<group>"; };
+		D6711E9E28CCA1B600B60ACE /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		D6711E7528CB224C00B60ACE /* Iksvan_Test */ = {
 			isa = PBXGroup;
 			children = (
-				D6711E7628CB224C00B60ACE /* AppDelegate.swift */,
-				D6711E7828CB224C00B60ACE /* SceneDelegate.swift */,
-				D6711E7A28CB224C00B60ACE /* ViewController.swift */,
-				D6711E7C28CB224C00B60ACE /* Main.storyboard */,
+				D6711E8A28CB225800B60ACE /* App */,
+				D6711E9E28CCA1B600B60ACE /* Music.swift */,
+				D6711E7A28CB224C00B60ACE /* MainViewController.swift */,
+				D6711E8F28CB22E700B60ACE /* CustomCell */,
+				D6711E9228CB231E00B60ACE /* View */,
 				D6711E7F28CB224D00B60ACE /* Assets.xcassets */,
 				D6711E8128CB224D00B60ACE /* LaunchScreen.storyboard */,
 				D6711E8428CB224D00B60ACE /* Info.plist */,
+				D6711E9D28CC9F6D00B60ACE /* Music */,
 			);
 			path = Iksvan_Test;
+			sourceTree = "<group>";
+		};
+		D6711E8A28CB225800B60ACE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D6711E7628CB224C00B60ACE /* AppDelegate.swift */,
+				D6711E7828CB224C00B60ACE /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D6711E8F28CB22E700B60ACE /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				D6711E8B28CB229400B60ACE /* CustomCollectionViewCell.swift */,
+				D6711E8C28CB229400B60ACE /* CustomCollectionViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		D6711E9228CB231E00B60ACE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6711E9B28CC8F7600B60ACE /* XGradientView.swift */,
+				D6711E9028CB230300B60ACE /* BaseView.swift */,
+				D6711E7C28CB224C00B60ACE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6711E9D28CC9F6D00B60ACE /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				D6711E9528CB704E00B60ACE /* The Weeknd ft. Daft Punk - Star-boy.mp3 */,
+				D6711E9728CB710700B60ACE /* Naughty Boy ft. Beyonce - Runnin.mp3 */,
+				D6711E9928CB725F00B60ACE /* Maroon 5 - Wait.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +182,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6711E8328CB224D00B60ACE /* LaunchScreen.storyboard in Resources */,
+				D6711E9628CB704E00B60ACE /* The Weeknd ft. Daft Punk - Star-boy.mp3 in Resources */,
 				D6711E8028CB224D00B60ACE /* Assets.xcassets in Resources */,
+				D6711E9A28CB725F00B60ACE /* Maroon 5 - Wait.mp3 in Resources */,
 				D6711E7E28CB224C00B60ACE /* Main.storyboard in Resources */,
+				D6711E9828CB710700B60ACE /* Naughty Boy ft. Beyonce - Runnin.mp3 in Resources */,
+				D6711E8E28CB229400B60ACE /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6711E7B28CB224C00B60ACE /* ViewController.swift in Sources */,
+				D6711E7B28CB224C00B60ACE /* MainViewController.swift in Sources */,
 				D6711E7728CB224C00B60ACE /* AppDelegate.swift in Sources */,
+				D6711E9128CB230300B60ACE /* BaseView.swift in Sources */,
 				D6711E7928CB224C00B60ACE /* SceneDelegate.swift in Sources */,
+				D6711E9F28CCA1B600B60ACE /* Music.swift in Sources */,
+				D6711E8D28CB229400B60ACE /* CustomCollectionViewCell.swift in Sources */,
+				D6711E9C28CC8F7600B60ACE /* XGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
